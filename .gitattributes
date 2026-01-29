@@ -1,1 +1,14 @@
+# Ignore Flutter platform/native code for language stats
+android/** linguist-vendored
+ios/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+web/** linguist-vendored
+
+# Ignore native code files
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.cc linguist-vendored
+*.mm linguist-vendored
 
