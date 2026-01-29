@@ -1,4 +1,4 @@
-# Ignore Flutter platform/native code for language stats
+# Ignore Flutter platform folders
 android/** linguist-vendored
 ios/** linguist-vendored
 linux/** linguist-vendored
@@ -6,9 +6,13 @@ macos/** linguist-vendored
 windows/** linguist-vendored
 web/** linguist-vendored
 
-# Ignore native code files
+# Ignore native and build system files
 *.cpp linguist-vendored
 *.h linguist-vendored
 *.cc linguist-vendored
 *.mm linguist-vendored
+*.c linguist-vendored
 
+# Ignore CMake files
+CMakeLists.txt linguist-vendored
+*.cmake linguist-vendored
