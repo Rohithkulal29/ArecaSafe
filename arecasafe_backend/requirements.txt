@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+scikit-learn
+joblib
+tensorflow>=2.10
+numpy
+requests
+python-dotenv
+supabase
+firebase-admin
+Pillow

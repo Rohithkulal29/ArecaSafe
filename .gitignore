@@ -1,0 +1,19 @@
+# Python backend
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Firebase
+serviceAccountKey.json
+
+# Flutter
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/

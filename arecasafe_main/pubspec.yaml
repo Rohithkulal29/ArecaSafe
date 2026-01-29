@@ -1,0 +1,32 @@
+name: arecasafe_main
+description: "ArecaSafe Mobile App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  http: ^1.2.1
+
+  # Supabase Flutter v2 – NO Apple Sign-In
+  supabase_flutter: ^2.10.3
+  supabase: ^2.10.0
+
+  image_picker: ^1.0.7
+  flutter_svg: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
