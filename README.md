@@ -45,3 +45,9 @@ Sensitive configuration values and credentials are managed using environment var
 
 ## Author
 Rohith R 
+
+---
+
+## Keywords
+arecanut crop disease detection, arecanut disease prediction, smart agriculture, iot agriculture, plant disease detection using ai
+
